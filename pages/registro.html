@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Minha Aplicação</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Minhas Fichas</a>
+            </li>
+          </ul>
+          <div class="form-inline">
+            <a href="login.html" class="btn btn-outline-success mr-2">Login</a>
+            <a href="registro.html" class="btn btn-outline-primary">Registro</a>
+        </div>
+        </div>
+      </nav>
+    
+<main class="conteudo d-flex justify-content-center align-items-center min-vh-100 bg-light" id="conteudo">
+    <div class="card p-4" style="width: 100%; max-width: 400px;">
+        <h2 class="text-center mb-4">Cadastre-se</h2>
+        <form id="formRegistro" action="registro.php" method="post">
+            <div class="form-group">
+                <label for="usuarioRegistro">Usuário:</label>
+                <input type="text" id="usuarioRegistro" name="usuarioRegistro" class="form-control" placeholder="Usuário" required>
+            </div>
+            <div class="form-group">
+                <label for="emailRegistro">Email:</label>
+                <input type="email" id="emailRegistro" name="emailRegistro" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="senhaRegistro">Senha:</label>
+                <input type="password" id="senhaRegistro" name="senhaRegistro" class="form-control" placeholder="Senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmarSenhaRegistro">Repita sua Senha:</label>
+                <input type="password" id="confirmarSenhaRegistro" name="confirmarSenhaRegistro" class="form-control" placeholder="Repita sua senha" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

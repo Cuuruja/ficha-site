@@ -1,0 +1,60 @@
+
+.btn-login,
+.btn-registro {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+  background-color: #f03636;
+  border-color: #545b62;
+}
+
+.btn-registro:hover,
+.btn-registro:focus {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #f03636;
+}
+
+
+#button-cadastro{
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #007bff;  
+  display: block;
+  width: 100%;
+}
+  .conteudo {
+    background-color:#121212;
+}
+
+.navbar{
+  background-color: #1F1F1F;
+}
+
+/* Arquivo de estilos personalizados (styles.css) */
+
+.btn-primary {
+  background-color: #002bad;
+  border-color: #002bad;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #001a8c;
+  border-color: #001a8c;
+}
+
+.btn-primary:hover {
+  background-color: #cc0000; /* Vermelho mais escuro ao passar o mouse */
+  border-color: #cc0000;
+}
