@@ -38,6 +38,7 @@
 
 .navbar{
   background-color: #1F1F1F;
+  border-bottom:4px solid #001a8c;
 }
 
 /* Arquivo de estilos personalizados (styles.css) */
@@ -54,6 +55,7 @@
   border-color: #001a8c;
 }
 
+/* HoVER BUTTON LOGIN */
 .btn-primary:hover {
   background-color: #cc0000; /* Vermelho mais escuro ao passar o mouse */
   border-color: #cc0000;
